@@ -298,8 +298,9 @@ padding-top: 15rem;
 .contact-container{
     width: 60vw;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .contact-container h2{
     color: #fff;
@@ -307,8 +308,7 @@ padding-top: 15rem;
 .dev-avatar-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 22vw;
 }
 .email{
     display: flex;
@@ -332,4 +332,11 @@ padding-top: 15rem;
     height: 15rem;
     border-radius: 20rem ;
     box-shadow: 2px 2px 2px 0px #373737, -2px -2px 2px 0px #373737 ;
+}
+
+.dev-details{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
