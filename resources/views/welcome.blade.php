@@ -70,6 +70,26 @@
              </div>
 
          </div>
+
+         <div class="chef-containers">
+             <div class="chef-title">
+                 <h1>Our Chefs</h1>
+             </div>
+             <div class="chef-avatar-continer">
+                 <img src="/img/avatar1.jpg" alt="Avatar-1" class="avatars">
+                 <img src="/img/avatar2.jpg" alt="Avatar-2" class="avatars">
+                 <img src="/img/avatar3.jpg" alt="Avatar-3" class="avatars">
+                 <img src="/img/avatar4.jpg" alt="Avatar-4" class="avatars">
+             </div>
+         </div>
+     </div>
+     <div class='contact'>
+            <div class="contact-title">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact-container">
+                
+            </div>
      </div>
  </div>
  </div>
