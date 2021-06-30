@@ -29,6 +29,7 @@
                      </a>
                  </div>
                  <div class="mssg">
+                     
                      {{ session('mssg') }}
                  </div>
              </div>
@@ -83,13 +84,33 @@
              </div>
          </div>
      </div>
+     <div class="social-links">
+        <div class="social-title">
+           <h1>Our Social Links</h1> 
+        </div>
+        <div class="social-container">
+            <img src="/img/facebook.png" alt="facebook" class="social">
+            <img src="/img/instagram.png" alt="instagram" class="social">
+            <img src="/img/youtube.png" alt="youtube" class="social">
+        </div>
+     </div>
      <div class='contact'>
-            <div class="contact-title">
-                <h1>Contact Us</h1>
-            </div>
-            <div class="contact-container">
-                
-            </div>
+             <div class="contact-title">
+                 <h1>Contact developer</h1>
+             </div>
+             <div class="contact-container">
+                 <div class="dev-avatar-container">
+                     <img src="/img/dev-avatar.jpg" alt="Dev-avatar" class="dev-avatar">
+                     <h2>Anurag Pattnayak</h1>
+                 </div>
+                 <div class="email">
+                     <h2>anuragpattnayak07@gmail.com</h1>
+                 </div>
+                 <div class="instagram-link">
+                     <h2>Instagram--&nbsp;&nbsp;</h1>
+                     <a href="#">xalpha7</a>
+                 </div>
+             </div>
      </div>
  </div>
  </div>

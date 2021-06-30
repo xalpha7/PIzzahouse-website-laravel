@@ -77,7 +77,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="antialiased-inside">
             <div class='main-container'>
                 @yield('content')
             </div>

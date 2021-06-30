@@ -15,6 +15,13 @@ body {
   justify-content: space-between;
 }
 
+.antialiased-inside {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .main-container {
   display: flex;
   justify-content: center;
@@ -48,7 +55,7 @@ body {
   align-items: center;
   flex-direction: column;
   border-bottom: 2px solid;
-  color: black;
+  color: #fffdfd;
   padding: 12px 0;
   margin-bottom: 3rem;
   top: -20rem;

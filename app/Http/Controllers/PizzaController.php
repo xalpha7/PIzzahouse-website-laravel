@@ -49,7 +49,7 @@ class PizzaController extends Controller
         
         $pizza->save();  // saving data in the database
  
-        return redirect('/')->with('mssg','Thank for your order');
+        return redirect('/')->with('mssg','---  Thank you for ordering  ---');
     }
 
     public function destroy($id) {
